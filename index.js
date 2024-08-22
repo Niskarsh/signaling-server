@@ -27,4 +27,4 @@ wss.on('connection', ws => {
     });
 });
 
-console.log('Signaling server is running on ws://localhost:8080');
+console.log(`Signaling server is running on port ${port}`);
